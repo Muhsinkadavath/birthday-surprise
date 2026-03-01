@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You 💕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Optional: add images/background.jpg for a soft full-page background -->
+  <div class="page-background" aria-hidden="true"></div>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="hero-sub">To-SANA LAKSHMI ER</p>
+      <h1>Happy Birthday, Love</h1>
+      <p class="hero-date">March 4th — The day my heroine arrived.</p>
+      <button class="cta" onclick="document.getElementById('open').scrollIntoView({behavior:'smooth'})">This is for You❤️🌹</button>
+    </div>
+    <!-- Hero video: put your video in videos/hero.mp4 (MP4 works best; use poster for a fallback frame) -->
+    <div class="hero-image">
+      <video autoplay loop muted playsinline class="hero-video" poster="images/fav15us.jpg" aria-label="Us">
+        <source src="videos/fav7.mp4" type="video/mp4">
+      </video>
+    </div>
+  </section>
+
+  <section id="open" class="section why">
+    <h2>Why You're My Favourite Human</h2>
+    <div class="cards">
+      <div class="card">I don't just want you around — I need you. My day doesn't feel right until I've heard your voice or seen your face.</div>
+      <div class="card">You're the only person I never get tired of. I could be with you every second and still want more of you.</div>
+      <div class="card">The way you look at me makes me feel like I'm the only one in the world. I never want to lose that.</div>
+      <div class="card">You're not just my favourite person — you're my home. Wherever you are is where I want to be.</div>
+    </div>
+  </section>
+
+  <section class="section why-love-her">
+    <h2>Why I Love You</h2>
+    <div class="reasons-scroll" id="reasons-scroll">
+      <ul class="reasons-list" id="reasons-list"></ul>
+    </div>
+    <button type="button" class="btn-more-reasons" id="btn-more-reasons">More reasons</button>
+  </section>
+
+  <section class="section gallery">
+    <h2>You in my gallery❤️🌹</h2>
+    <div class="photo-scroll-wrap">
+      <div class="photo-grid photo-grid--scroll">
+        <div class="photo-wrap"><img src="images/fav43.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav42.JPG" alt="Memory 2" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E2%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav41.JPG" alt="Memory 3" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E3%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav40.JPG" alt="Memory 4" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E4%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav39.JPG" alt="Memory 5" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E5%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav38.JPG" alt="Memory 6" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E6%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav37.jpeg" alt="Memory 7" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E7%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav36.JPG" alt="Memory 8" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E8%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav35.JPG" alt="Memory 9" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E9%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav34.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav33.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav32.jpg" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav31.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav30.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav29.jpeg" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav28.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav27.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav26.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav25.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav23.jpg" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav21.jpg" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav17.JPG" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav16.jpg" alt="Memory 10" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E10%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav44.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav45.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav46.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav47.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav48.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav49.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav50.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav51.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav52.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav54.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav55.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav56.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav57.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav58.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav59.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav60.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav61.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav62.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav63.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav64.jpeg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav65.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav66.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav67.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav68.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav69.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav70.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav71.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav72.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav73.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav74.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav75.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav76.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav77.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav78.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav79.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav80.jpeg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav81.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav82.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav83.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav84.PNG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav85.jpg" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav86.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav87.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav88.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav89.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav90.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav91.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav92.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav93.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav94.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+        <div class="photo-wrap"><img src="images/fav95.JPG" alt="Memory 1" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22180%22 height=%22180%22%3E%3Crect fill=%22%23fce4ec%22 width=%22180%22 height=%22180%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%239e9e9e%22 font-size=%2212%22%3E1%3C/text%3E%3C/svg%3E'"></div>
+      </div>
+    </div>
+    <div class="gallery-message">
+      <p class="gallery-message-text">Because you send me view-once only on WhatsApp, I could save only these. I need more. There’s <strong>256 GB</strong> on my phone — I want it <em>filled by you</em>. I’m ready to pay for extra storage. If you really want to send more —</p>
+      <a href="https://wa.me/919074717212" target="_blank" rel="noopener" class="gallery-whatsapp-btn">
+        <span class="gallery-whatsapp-icon">💬</span>
+        <span class="gallery-whatsapp-label">Send here</span>
+        <span class="gallery-whatsapp-number">9074717212</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="section collage-section">
+    <!-- <h2>Us</h2> -->
+    <!-- <p class="section-sub">Add your photos as collage1.jpg … collage6.jpg in the <code>images/</code> folder.</p> -->
+    <div class="collage">
+      <div class="collage-item collage-1"><div class="polaroid"><img src="images/fav1us.jpg" alt="Us" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">Us😘🫂</span></div></div>
+      <div class="collage-item collage-2"><div class="polaroid"><img src="images/fav2us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">💕</span></div></div>
+      <div class="collage-item collage-3"><div class="polaroid"><img src="images/fav3us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">Always🥰</span></div></div>
+      <div class="collage-item collage-4"><div class="polaroid"><img src="images/fav4us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">Forever💕</span></div></div>
+      <div class="collage-item collage-5"><div class="polaroid"><img src="images/fav5us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">You & me♥️</span></div></div>
+      <div class="collage-item collage-6"><div class="polaroid"><img src="images/fav8us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">😘</span></div></div>
+      <div class="collage-item collage-7"><div class="polaroid"><img src="images/fav9us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">Mine🫰</span></div></div>
+      <div class="collage-center">Us</div>
+      <div class="collage-item collage-8"><div class="polaroid"><img src="images/fav10us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">Best day🫂💋</span></div></div>
+      <div class="collage-item collage-9"><div class="polaroid"><img src="images/fav11us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">😘🫂</span></div></div>
+      <div class="collage-item collage-10"><div class="polaroid"><img src="images/fav12us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">AI😉</span></div></div>
+      <div class="collage-item collage-11"><div class="polaroid"><img src="images/fav13us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">❣️😍</span></div></div>
+      <div class="collage-item collage-12"><div class="polaroid"><img src="images/fav14us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">love</span></div></div>
+      <div class="collage-item collage-13"><div class="polaroid"><img src="images/fav15us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">💞🤍❤️‍🔥</span></div></div>
+      <div class="collage-item collage-14"><div class="polaroid"><img src="images/fav18us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">🫂</span></div></div>
+      <div class="collage-item collage-15"><div class="polaroid"><img src="images/fav19us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">🫰</span></div></div>
+      <div class="collage-item collage-16"><div class="polaroid"><img src="images/fav20us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">😍</span></div></div>
+      <div class="collage-item collage-17"><div class="polaroid"><img src="images/fav22us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">🫶❣️😍</span></div></div>
+      <div class="collage-item collage-18"><div class="polaroid"><img src="images/fav24us.jpg" alt="Memory" onerror="this.parentElement.classList.add('placeholder')"><span class="polaroid-cap">❤️‍🔥</span></div></div>
+    </div>
+  </section>
+
+  <section class="section video-section">
+    <h2>For You My Love🫂😘</h2>
+    <!-- <p class="section-sub">Use <strong>MP4 (H.264)</strong> for reliable playback. If your files are .MOV, convert them to .mp4 (e.g. <a href="https://cloudconvert.com/mov-to-mp4" target="_blank" rel="noopener">cloudconvert.com/mov-to-mp4</a>), then save as video1.mp4 … video6.mp4 in the <code>videos/</code> folder.</p> -->
+    <div class="video-grid">
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav4.mp4" type="video/mp4"><source src="videos/fav4.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">sundareee🫶</p></div>
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav6.mp4" type="video/mp4"><source src="videos/fav6.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">shutttuuu🫂</p></div>
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav1.mp4" type="video/mp4"><source src="videos/fav7.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">chakkaree💋</p></div>
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav8.mp4" type="video/mp4"><source src="videos/fav8.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">kumbhachee😍</p></div>
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav9.mp4" type="video/mp4"><source src="videos/fav9.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">thankakudam❤️‍🔥</p></div>
+      <div class="video-wrap"><video controls preload="metadata" playsinline><source src="videos/fav14.mp4" type="video/mp4"><source src="videos/fav14.MOV" type="video/quicktime">Your browser doesn’t support video.</video><p class="video-label">vaaavee🤍</p></div>
+    </div>
+  </section>
+
+  <section class="section little-things">
+    <h2>The little things</h2>
+    <p class="section-sub">Small things about you I never get tired of noticing.</p>
+    <ul class="little-things-list">
+      <li>The way you tuck your hair behind your ear when you're thinking.</li>
+      <li>How your whole face lights up when you talk about something you love.</li>
+      <li>When you hum or sing without realizing it.</li>
+      <li>The way you look at me when you think I'm not looking.</li>
+      <li>When you laugh so hard you snort a little.</li>
+      <li>How you remember the small stuff I say and bring it up later.</li>
+      <li>That thing you do when you're sleepy and your voice gets softer.</li>
+      <li>When you reach for my hand without thinking.</li>
+      <li>When you hold me from behind while riding the bike.</li>
+      <li>The way you let me kiss you on everywhere on your face.</li>
+      <li>The way you run your fingers through my hair when i lie on your lap.</li>
+      <li>There is more and more and more I can't even remember.</li>
+    </ul>
+  </section>
+
+  <section class="section gift-section" id="gift-section">
+    <h2>About Gifts</h2>
+    <div class="gift-message">
+      <p>You said you don’t want any gifts this year — that turning 26 feels a little heavy, and that we’re watching the budget. I hear you, and I respect that. So this year I’m not giving you something in a box.</p>
+      <p>But I need you to know: <strong>not giving you a gift doesn’t mean I don’t want to.</strong> The moment I can, and <em>if you give me your permission</em>, I’m ready to give you anything. Because you deserve everything.</p>
+      <p class="gift-wish">Here’s what I wish I could give you — not to make you sad, but so you know what’s in my heart.</p>
+    </div>
+    <div class="gift-grid">
+      <div class="gift-card">
+        <div class="gift-image-wrap">
+          <img src="images/gift-jewellery.jpg" alt="Jewellery for you" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <span class="gift-placeholder">💎</span>
+        </div>
+        <span class="gift-label">Jewellery</span>
+      </div>
+      <div class="gift-card">
+        <div class="gift-image-wrap">
+          <img src="images/gift-dress.jpg" alt="A dress for you" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <span class="gift-placeholder">👗</span>
+        </div>
+        <span class="gift-label">Clothes</span>
+      </div>
+      <div class="gift-card">
+        <div class="gift-image-wrap">
+          <img src="images/gift-chocolates.jpg" alt="Chocolates for you" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <span class="gift-placeholder">🍫</span>
+        </div>
+        <span class="gift-label">Chocolates</span>
+      </div>
+      <div class="gift-card">
+        <div class="gift-image-wrap">
+          <img src="images/gift-flowers.jpg" alt="Flowers for you" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <span class="gift-placeholder">🌸</span>
+        </div>
+        <span class="gift-label">Flowers</span>
+      </div>
+    </div>
+    <div class="gift-surprise-wrap">
+      <button type="button" class="gift-surprise-btn" id="gift-surprise-btn">Tap for one more surprise 💕</button>
+      <div class="gift-surprise-reveal hidden" id="gift-surprise-reveal">
+        <div class="gift-surprise-img-wrap">
+          <img src="images/me.jpeg" alt="Me — and I'm all yours" class="gift-surprise-img" onerror="this.style.display='none'; this.nextElementSibling.classList.add('visible');">
+          <!-- <span class="gift-me-placeholder">📷 Add images/gift-me.jpg (your photo)</span> -->
+        </div>
+        <p class="gift-surprise-caption">That’s me. And I’m all yours. 💕</p>
+      </div>
+    </div>
+    <p class="gift-question">When the time is right… <strong>will you let me give you something?</strong> Please say yes. 💕</p>
+  </section>
+
+  <section id="forever" class="section question-section">
+    <h2>One Question</h2>
+    <p class="question-text">Will you marry me and be with me forever…💍?</p>
+    <div class="button-group">
+      <button id="yes-one" class="btn btn-yes">Yes</button>
+      <button id="no-one" class="btn btn-no">No</button>
+    </div>
+    <p id="answer-msg" class="answer-msg hidden"></p>
+  </section>
+
+  <section class="section end">
+    <h2>Thank You</h2>
+    <p class="end-text">For being you. For choosing us. For making every day feel like a gift.<br>I love you. Happy birthday. 💕</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
