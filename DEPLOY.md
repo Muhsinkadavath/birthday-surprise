@@ -40,15 +40,13 @@ Then pick one of the options below to host the whole folder online.
 
 ---
 
-## 4. Option C: GitHub Pages (Free, Good if You Use GitHub)
+## 4. Option C: GitHub + GitHub Pages (Free, Good if You Use GitHub)
 
 1. Create a **GitHub** account if you don’t have one.
-2. Create a **new repository** (e.g. `birthday-surprise`).
-3. Upload all files from `birthday-surprise` (including `index.html`, `styles.css`, `script.js`, `images/`, `videos/`).
+2. **Push your code** from the `birthday-surprise` folder (see **GITHUB-DEPLOY.md** for exact commands).
+3. In the repo: **Settings** → **Pages** → Source: **Deploy from a branch** → Branch: **main** → Save.
 4. Go to **Settings** → **Pages** → under “Source” choose **main** branch → **Save**.
-5. After a minute, your site will be at:  
-   `https://YOUR_USERNAME.github.io/birthday-surprise/`
-6. Send her that link.
+   `https://YOUR_USERNAME.github.io/birthday-surprise/` — send her that link.
 
 ---
 
