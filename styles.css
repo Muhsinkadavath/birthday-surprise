@@ -943,3 +943,15 @@ body {
   content: '';
   margin-top: 0.5rem;
 }
+
+.more-videos-note{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 1.15rem;
+  color: #ff4d6d;
+  font-weight: 500;
+  line-height: 1.8;
+  background: rgba(255, 77, 109, 0.08);
+  padding: 20px;
+  border-radius: 15px;
+}
